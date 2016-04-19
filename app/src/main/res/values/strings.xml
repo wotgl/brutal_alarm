@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Brutal Alarm</string>
+    <string name="vk_message">I am sleeping OK today</string>
+    <string name="login_success">Success</string>
+    <string name="login_failed">Login failed :(</string>
+    <string name="scream_and_shake">SCREAM\nAND\nSHAKE</string>
+    <string name="day">d</string>
+    <string name="minute">min</string>
+    <string name="alarm_is_running">ALARM IS RUNNING</string>
+    <string name="times">times</string>
+    <string name="menu">MENU</string>
+    <string name="social">Social</string>
+    <string name="settings">Settings</string>
+    <string name="about">About</string>
+    <string name="about_info">Brutal Alarm v 0.0.0.0.0.1 PreBetaAlpha Release</string>
+    <string name="hard">HARD</string>
+    <string name="very_hard">VERY HARD</string>
+    <string name="the_hardest">THE HARDEST</string>
+    <string name="impossible">IMPOSSIBLE</string>
+    <string name="every_day">Every day</string>
+    <string name="never">Never</string>
+    <string name="day_of_week">Day of week</string>
+    <string name="monday">Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="difficulty">Difficulty</string>
+    <string name="survived">Survived</string>
+    <string name="press_home_button">PRESS\nHOME\nBUTTON</string>
+    <string name="brutal">BRUTAL</string>
+    <string name="enabled">Enabled</string>
+    <string name="time">Time</string>
+    <string name="repeat">Repeat</string>
+    <string name="delete">DELETE</string>
+    <string name="hust_login">JUST LOGIN</string>
+    <string name="add">Add</string>
+
+    <integer name="com_vk_sdk_AppId">5406388</integer>
+    <integer name="alarm_time">120000</integer>
+</resources>

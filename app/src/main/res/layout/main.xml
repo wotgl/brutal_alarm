@@ -1,0 +1,53 @@
+ <RelativeLayout
+     xmlns:android="http://schemas.android.com/apk/res/android"
+     android:id="@+id/content_frame"
+     android:layout_width="match_parent"
+     android:layout_height="match_parent" >
+
+     <Button
+         android:layout_width="96dp"
+         android:layout_height="96dp"
+         android:id="@+id/gamburgerButton"
+         android:onClick="gamburgerClick"
+         android:background="@drawable/gamburger"
+         android:layout_gravity="left|top" />
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:textAppearance="?android:attr/textAppearanceLarge"
+         android:text="@string/brutal"
+         android:singleLine="true"
+         android:gravity="center"
+         android:textSize="60sp"
+         android:id="@+id/brutalText"
+         android:layout_alignParentTop="true"
+         android:layout_toRightOf="@+id/gamburgerButton"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentEnd="true"
+         android:layout_alignBottom="@+id/gamburgerButton" />
+
+     <ListView
+         android:layout_width="match_parent"
+         android:layout_height="100dp"
+         android:id="@+id/alarmsList"
+         android:layout_gravity="left|right|bottom"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true"
+         android:layout_below="@+id/gamburgerButton"
+         android:layout_above="@+id/button4" />
+
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/add"
+         android:onClick="addButtonClick"
+         android:textSize="35sp"
+         android:layout_alignParentBottom="true"
+         android:layout_alignRight="@+id/brutalText"
+         android:layout_alignEnd="@+id/brutalText"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentStart="true"
+         android:id="@+id/button4" />
+
+ </RelativeLayout>

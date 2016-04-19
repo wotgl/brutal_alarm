@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">Brutal Alarm</string>
+    <string name="vk_message">Я сегодня очень хорошо сплю</string>
+    <string name="login_success">Отлично</string>
+    <string name="login_failed">Не получилось :/</string>
+    <string name="scream_and_shake">КРИЧИ\nИ\nТРЯСИ</string>
+    <string name="day">д</string>
+    <string name="minute">мин</string>
+    <string name="alarm_is_running">БУДИЛЬНИК ЗАПУЩЕН</string>
+    <string name="times">раз</string>
+    <string name="menu">MENU</string>
+    <string name="social">Соцсети</string>
+    <string name="settings">Настройки</string>
+    <string name="about">О программе</string>
+    <string name="about_info">Brutal Alarm v 0.0.0.0.0.1 PreBetaAlpha Release</string>
+    <string name="hard">HARD</string>
+    <string name="very_hard">VERY HARD</string>
+    <string name="the_hardest">THE HARDEST</string>
+    <string name="impossible">IMPOSSIBLE</string>
+    <string name="every_day">Каждый день</string>
+    <string name="never">Никогда</string>
+    <string name="day_of_week">Дни недели</string>
+    <string name="monday">Понедельник</string>
+    <string name="tuesday">Вторник</string>
+    <string name="wednesday">Среда</string>
+    <string name="thursday">Четверг</string>
+    <string name="friday">Пятница</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресенье</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Отмена</string>
+    <string name="difficulty">Сложность</string>
+    <string name="survived">Выжил</string>
+    <string name="press_home_button">НАЖМИ\nНА\nДОМИК</string>
+    <string name="brutal">BRUTAL</string>
+    <string name="enabled">Включено</string>
+    <string name="time">Время</string>
+    <string name="repeat">Повторение</string>
+    <string name="delete">УДАЛИТЬ</string>
+    <string name="hust_login">JUST LOGIN</string>
+    <string name="add">Добавить</string>
+
+    <integer name="com_vk_sdk_AppId">5406388</integer>
+    <integer name="alarm_time">120000</integer>
+</resources>

@@ -1,0 +1,168 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="96dp"
+        android:layout_height="96dp"
+        android:id="@+id/gamburgerButton"
+        android:onClick="gamburgerClick"
+        android:background="@drawable/gamburger"
+        android:layout_gravity="left|top" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/brutal"
+        android:singleLine="true"
+        android:gravity="center"
+        android:textSize="60sp"
+        android:id="@+id/brutalText"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/gamburgerButton"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/gamburgerButton" />
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/alarmEnabledCheckBox"
+        android:onClick="enabledClick"
+        android:layout_below="@+id/brutalText"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/textView3"
+        android:checked="false" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/enabled"
+        android:gravity="left"
+        android:textSize="30sp"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/gamburgerButton"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/alarmEnabledCheckBox"
+        android:layout_toStartOf="@+id/alarmEnabledCheckBox" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/time"
+        android:onClick="timeClick"
+        android:gravity="left"
+        android:textSize="30sp"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/textView3"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/timeTextView"
+        android:layout_toLeftOf="@+id/timeTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:onClick="timeClick"
+        android:gravity="right"
+        android:textSize="30sp"
+        android:id="@+id/timeTextView"
+        android:layout_below="@+id/alarmEnabledCheckBox"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/every_day"
+        android:onClick="repeatClick"
+        android:gravity="right"
+        android:textSize="30sp"
+        android:id="@+id/repeatTextView"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/repeat"
+        android:onClick="repeatClick"
+        android:gravity="left"
+        android:textSize="30sp"
+        android:id="@+id/textView7"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toLeftOf="@+id/repeatTextView"
+        android:layout_toStartOf="@+id/repeatTextView" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/hard"
+        android:onClick="difficultyClick"
+        android:gravity="right"
+        android:textSize="30sp"
+        android:id="@+id/difficultyTextView"
+        android:layout_below="@+id/repeatTextView"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/difficulty"
+        android:onClick="difficultyClick"
+        android:gravity="left"
+        android:textSize="30sp"
+        android:id="@+id/textView9"
+        android:layout_alignTop="@+id/difficultyTextView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_toStartOf="@+id/difficultyTextView"
+        android:layout_toLeftOf="@+id/difficultyTextView" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/cancel"
+            android:onClick="cancelClick"
+            android:textSize="20sp"
+            android:layout_weight=".50"
+            android:id="@+id/button"
+            android:layout_gravity="bottom" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="80dp"
+            android:text="@string/ok"
+            android:onClick="okClick"
+            android:textSize="20sp"
+            android:layout_weight=".50"
+            android:id="@+id/button2"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+
+
+</RelativeLayout>
