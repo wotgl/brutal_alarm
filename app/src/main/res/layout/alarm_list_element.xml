@@ -25,5 +25,6 @@
         android:text="@string/delete"
         android:gravity="center"
         android:layout_weight="0.0"
-        android:id="@+id/removeButton" />
+        android:id="@+id/removeButton"
+        android:background="#ff5353" />
 </LinearLayout>

@@ -24,7 +24,7 @@ public class AlarmCreateActivity extends BaseActivity {
     private boolean creatingNewAlarm;
     private int alarmId;
 
-    private boolean enabled = false;
+    private boolean enabled = true;
     private int[] time = {0,0};
     private ArrayList<Integer> daysOfWeek = new ArrayList<>();
     private int difficulty = 0;

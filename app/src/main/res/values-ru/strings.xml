@@ -39,6 +39,8 @@
     <string name="delete">УДАЛИТЬ</string>
     <string name="hust_login">JUST LOGIN</string>
     <string name="add">Добавить</string>
+    <string name="network_is_not_available">Сеть недоступна</string>
+    <string name="copyright">TP 2016</string>
 
     <integer name="com_vk_sdk_AppId">5406388</integer>
     <integer name="alarm_time">120000</integer>

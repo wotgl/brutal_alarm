@@ -4,12 +4,15 @@ import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.Gravity;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.mikepenz.materialdrawer.Drawer;
 import com.mikepenz.materialdrawer.DrawerBuilder;
+import com.mikepenz.materialdrawer.holder.BadgeStyle;
 import com.mikepenz.materialdrawer.model.PrimaryDrawerItem;
 import com.mikepenz.materialdrawer.model.SecondaryDrawerItem;
 import com.mikepenz.materialdrawer.model.interfaces.IDrawerItem;
@@ -54,6 +57,8 @@ public class BaseActivity extends AppCompatActivity {
         if(this.getClass().equals(MainActivity.class)) pos = 1;
         if(this.getClass().equals(LoginActivity.class)) pos = 2;
         if(this.getClass().equals(SettingsActivity.class)) pos = 3;
+
+        SecondaryDrawerItem copyright = new SecondaryDrawerItem().withName(R.string.copyright).withTextColor(Color.WHITE).withSelectedColor(Color.BLACK).withSelectedTextColor(Color.WHITE).withTag("copyright");
 
         return new DrawerBuilder()
                 .withActivity(this)
